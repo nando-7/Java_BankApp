@@ -131,7 +131,7 @@ public class fifth_Withdraw extends javax.swing.JFrame {
        
               //System.out.println("aham");  
             JOptionPane.showMessageDialog(null,
-                    "Yeah, thats it! Spend it all!!! "
+                    "Please take your cash. "
                      + "\n Here's your new balance: $" + newBal);
             
             
@@ -141,7 +141,7 @@ public class fifth_Withdraw extends javax.swing.JFrame {
             
             else{
                 JOptionPane.showMessageDialog(null, 
-                              "You haven't got that money! Get a job bruh!", 
+                              "Sorry, you don't have eanough balance for this withdraw.", 
                               "ALERT", 
                               JOptionPane.WARNING_MESSAGE);
                 
