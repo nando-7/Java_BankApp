@@ -188,9 +188,7 @@ public class second_Login extends javax.swing.JFrame {
                 flag = true;
                 }  
         
-              // else {
-                  //  JOptionPane.showMessageDialog(null, "It ain't this password mate! Try again!!"); 
-        //}                   
+                            
                 
         }
         
@@ -200,7 +198,7 @@ public class second_Login extends javax.swing.JFrame {
               option.setVisible(true);
               this.setVisible(false);
           } else {
-              JOptionPane.showMessageDialog(null, "Wrong credentials mate! Try again!!");
+              JOptionPane.showMessageDialog(null, "Wrong credentials, please try again.");
           }
         
         
