@@ -195,13 +195,9 @@ bg1.add(jRadioButton4);
         
  
        
-        if( this.jRadioButton1.isSelected() ){
+       
         
-           // balance.setVisible(true);
-            //this.setVisible(false);
-        } 
-        
-        else if (this.jRadioButton2.isSelected()){
+        if (this.jRadioButton2.isSelected()){
             withdraw.setVisible(true);
             this.setVisible(false);
         }
@@ -213,7 +209,7 @@ bg1.add(jRadioButton4);
         
         else {
             JOptionPane.showMessageDialog(null, 
-                              "All good, see ya later bruh!", 
+                              "Bye! Thanks for using BROTHA BANK.", 
                               "ALERT", 
                               JOptionPane.WARNING_MESSAGE);
             this.setVisible(false);
