@@ -126,7 +126,7 @@ public class sixth_Deposit extends javax.swing.JFrame {
        
               //System.out.println("aham");  
             JOptionPane.showMessageDialog(null,
-                    "Finally a deposit and not a withdraw! Thanks bruh!" + 
+                    "Deposit completed." + 
                     "\n Here's your new balance: $" + newBal);
             
          
